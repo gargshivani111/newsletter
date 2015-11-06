@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Multifield"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <panel
+                jcr:primaryType="cq:Panel"
+                title="Multifield">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <openNewWindow
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Open resulting page in a new browser window"
+                        fieldLabel="Open in New Window"
+                        name="./newWindow"
+                        type="checkbox"
+                        xtype="selection"/>
+                </items>
+            </panel>
+        </items>
+    </items>
+</jcr:root>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/default"
+        cq:lastModified="{Date}2015-10-29T14:12:31.719+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2015-10-29T14:39:19.153+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/geometrixx/templates/newsletter"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Newsletter-technology"
+        jcr:uuid="f6167a25-508a-41b3-879d-9dbd70df0e06"
+        sling:resourceType="geometrixx/components/newsletterpage"
+        defaultRecipientList="/home/groups/n/newsletter-technology"
+        from="manisha.bano@intelligrape.com"
+        FromName="manisha.bano@tothenew.com"
+        offTime="{Date}2015-10-12T12:45:00.000+05:30"
+        onTime="{Date}2015-10-12T12:45:00.000+05:30"
+        ReplyTo="manisha.bano@tothenew.com"
+        teaserPageType="newsletter">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="mcm/components/newsletter/parsys">
+            <heading
+                jcr:created="{Date}2015-10-12T12:31:17.850+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-12T12:31:40.314+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Technology Newsletter"
+                sling:resourceType="mcm/components/newsletter/heading"
+                type="heading"/>
+            <personalization
+                jcr:created="{Date}2015-10-12T12:31:48.727+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-10-12T16:40:33.320+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mcm/components/personalization"
+                text="&lt;p>Hi,&lt;/p>&#xa;&lt;p>You have Subscribe to our Technology Newsletter.&lt;/p>&#xa;"
+                textIsRich="true"/>
+        </par>
+    </jcr:content>
+</jcr:root>
